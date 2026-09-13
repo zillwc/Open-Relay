@@ -4,16 +4,15 @@
 <dict>
 	<key>com.apple.developer.kernel.increased-memory-limit</key>
 	<true/>
-	<!-- Allows BGContinuedProcessingTask to use the GPU while the app is backgrounded.
-	     Requires iOS 26+ and the Background GPU Access capability in Xcode.
-	     Used for on-device ASR (Parakeet/MLX) so transcription continues uninterrupted
-	     when the user backgrounds the app. No effect on iOS < 26. -->
-	<key>com.apple.developer.background-tasks.continued-processing.gpu</key>
-	<true/>
+	<!-- Background GPU Access (com.apple.developer.background-tasks.continued-processing.gpu)
+	     requires the paid Apple Developer Program under personal-team
+	     provisioning, so it's removed here. Effect: on-device ASR
+	     (Parakeet/MLX) transcription stops if the app is backgrounded
+	     mid-transcription instead of continuing; foreground transcription
+	     is unaffected. -->
 	<!-- App Groups requires the paid Apple Developer Program and is not
-	     available under free/personal-team provisioning (this fork signs
-	     free via SideStore). Removed so the widget/share-extension targets'
-	     shared-storage features degrade instead of failing to sign; the main
-	     chat app is unaffected. -->
+	     available under free/personal-team provisioning. Removed so the
+	     widget/share-extension targets' shared-storage features degrade
+	     instead of failing to sign; the main chat app is unaffected. -->
 </dict>
 </plist>

@@ -29,7 +29,7 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>com.openui.openui</string>
+			<string>com.overwatch.openrelay</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>openui</string>
@@ -55,7 +55,7 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>New Chat</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>com.openui.openui.new-chat</string>
+			<string>com.overwatch.openrelay.new-chat</string>
 			<key>UIApplicationShortcutItemUserInfo</key>
 			<dict>
 				<key>url</key>
@@ -68,7 +68,7 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>Voice Call</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>com.openui.openui.voice-call</string>
+			<string>com.overwatch.openrelay.voice-call</string>
 			<key>UIApplicationShortcutItemUserInfo</key>
 			<dict>
 				<key>url</key>
@@ -81,7 +81,7 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>Camera Chat</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>com.openui.openui.camera-chat</string>
+			<string>com.overwatch.openrelay.camera-chat</string>
 			<key>UIApplicationShortcutItemUserInfo</key>
 			<dict>
 				<key>url</key>
@@ -94,7 +94,7 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>New Channel</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>com.openui.openui.new-channel</string>
+			<string>com.overwatch.openrelay.new-channel</string>
 			<key>UIApplicationShortcutItemUserInfo</key>
 			<dict>
 				<key>url</key>
